@@ -12,7 +12,7 @@ export enum t {
 	Eof,
 }
 
-class Token {
+export class Token {
 	type: t
 	value: any
 

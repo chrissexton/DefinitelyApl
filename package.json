@@ -10,7 +10,8 @@
   "scripts": {
     "postinstall": "./build.sh",
     "build": "./build.sh",
-	"test": "node_modules/.bin/mocha src/test"
+    "test": "node_modules/.bin/mocha src/test",
+    "doc": "node_modules/.bin/typedoc -m commonjs -t es5 --out doc/ src/"
   },
   "dependencies": {},
   "license": "WTFPL",
