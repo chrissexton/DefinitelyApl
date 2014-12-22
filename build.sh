@@ -5,4 +5,4 @@ if [ ! -d src/typings ]; then
 	./node_modules/.bin/tsd rebundle
 fi
 
-./node_modules/.bin/tsc --target es5 -m amd --out testApl.js src/testApl.ts
+./node_modules/.bin/tsc --target es5 -m commonjs src/_all.ts
